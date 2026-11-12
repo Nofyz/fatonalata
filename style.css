@@ -1,0 +1,16 @@
+:root { --bg: #0b1026; --panel: #121a3a; --line: #2a3566; --text: #f4f1de; --muted: #9aa3c7; --accent: #ffd23f; --phosphor: #3cf0c8; }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+main { max-width: 760px; margin: 0 auto; padding: 32px 16px 64px; }
+header { display: flex; align-items: center; gap: 14px; margin-bottom: 28px; }
+header img { width: 64px; height: 64px; border-radius: 12px; }
+header a { color: inherit; text-decoration: none; }
+.brand { font: 800 26px/1 system-ui, sans-serif; color: var(--accent); letter-spacing: .02em; }
+.brand span { color: var(--phosphor); }
+h1 { font-size: 28px; line-height: 1.2; margin: 0 0 8px; }
+h2 { font-size: 19px; margin: 28px 0 8px; color: var(--accent); }
+a { color: var(--phosphor); }
+.muted { color: var(--muted); font-size: 14px; }
+.card { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 20px; }
+nav { display: flex; gap: 16px; flex-wrap: wrap; margin-top: 32px; padding-top: 16px; border-top: 1px dashed var(--line); font-size: 14px; }
+ul { padding-left: 20px; }
